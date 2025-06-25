@@ -37,8 +37,8 @@ Siga os passos abaixo para configurar e executar a aplicação completa em sua m
     *(Opcional, mas recomendado: `python -m pip install --upgrade pip` antes de instalar os requirements)*
 
 5.  **Execute a aplicação**
-    Execute o Uvicorn:
+    Execute o arquivo run.py no terminal no diretório raiz:
     ```bash
-    uvicorn main:app --reload
+    python run.py
     ```
     A api estará rodando, geralmente em `http://localhost:8000`. Mantenha este terminal aberto.
